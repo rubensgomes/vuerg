@@ -19,7 +19,13 @@
 
 ```bash
 npm install -g @vue/cli
-``
+```
+
+## Scaffolding Project
+
+```bash
+vue create vuerg
+```
 
 ## Miscellaneous Commands
 
@@ -28,3 +34,5 @@ node --version
 npm --version
 npm config --global get prefix
 ```
+
+
