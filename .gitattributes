@@ -1,0 +1,91 @@
+# ATTENTION: This file should not be changed. It defines
+#            conventions (Git Attributes) to be shared
+#            among developers.
+
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+# These files are text and should be normalized (Convert crlf => lf)
+###### APACHE HTTPD
+*.conf          text
+*.htaccess      text
+
+###### C Language
+*.c             text
+*.h             text
+
+###### Git
+.gitattributes  text
+.gitconfig      text
+.gitignore      text
+.gitkeep        text
+.gitmodules     text
+
+###### HTML/JS/JSON/XML/YAML
+*.css           text
+*.htm           text
+*.html          text
+*.js            text
+*.json          text
+*.scss          text
+*.xhtml         text
+*.xml           text
+*.yml           text
+
+###### JAVA
+*.java          text
+*.jsp           text
+*.jspf          text
+*.properties    text
+
+###### PHP
+*.inc           text
+*.php           text
+*.lock          text
+
+###### MISC
+*.df            text
+*.dist          text
+*.md            text
+*.number        text
+*.rst           text
+*.sh            text
+*.tld           text
+*.tpl           text
+*.txt           text
+
+###### TEXT FILES
+AUTHORS         text
+CHANGELOG       text
+CHANGES         text
+CONTRIBUTING    text
+COPYING         text
+copyright       text
+*COPYRIGHT*     text
+INSTALL         text
+license         text
+LICENSE         text
+NEWS            text
+readme          text
+*README*        text
+TODO            text
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.class         binary
+*.dll           binary
+*.ear           binary
+*.gif           binary
+*.ico           binary
+*.jar           binary
+*.jpg           binary
+*.jpeg          binary
+*.png           binary
+*.so            binary
+*.war           binary
+
+CHANGELOG.md export-ignore

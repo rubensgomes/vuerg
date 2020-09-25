@@ -8,23 +8,29 @@
 * A user GitHub Page is being set up as follows:
 
 1. Created new public repository named "rubensgomes.github.io" to be used to
-   publish this User GitHub Page site: <https://rubensgomes.github.io/vuejs>
-2. Created 'stable' branch from 'master' branch.
+   publish this User GitHub Page site: <https://rubensgomes.github.io/vuerg>
+2. Created 'stable' branch from 'master' branch in this vuerg git repository.
 3. Under the branch 'Settings', configured the 'stable' branch and '/docs' folder
    to be used for the 'User GitHub Page Site'.
 
 ## Configure Vue.JS
 
-1. Installed Vue CLI
+1. Install Vue CLI
 
 ```bash
 npm install -g @vue/cli
 ```
 
-## Scaffolding Project
+2. Scaffold Project
 
 ```bash
 vue create vuerg
+```
+
+3. Install serve
+
+```bash
+npm install -g serve
 ```
 
 ## Miscellaneous Commands
@@ -33,6 +39,7 @@ vue create vuerg
 node --version
 npm --version
 npm config --global get prefix
+serve -s dist
 ```
 
 
