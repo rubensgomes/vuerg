@@ -1,0 +1,48 @@
+/* Header Hero */
+
+header.hero {
+  background-color: $color-primary;
+  color: $color-light;
+}
+
+
+// Bootstrap Jumbotron placed inside the header hero page
+.jumbotron {
+  // same bg color as the hero section bg color
+  background-color: $color-primary;
+
+  .container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__photo {
+    width: 40%;
+  }
+
+  &__text {
+    width: 80%;
+  }
+
+  // Medium devices (tablets, 768px and up)
+  @include media('>=tablet') {
+    align-items: center;
+    display: flex;
+    min-height: 80vh;
+
+    .container {
+      align-items: stretch;
+      flex-direction: row;
+    }
+
+    // Since we have set flex row direction on larger screens we can
+    // use less space for photo and text.
+    &__photo {
+      width: 20%;
+    }
+
+    &__text {
+      width: 55%;
+    }
+  }
+}

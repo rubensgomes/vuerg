@@ -1,0 +1,30 @@
+/* Navigation Bar */
+
+.navbar {
+  background-color: $color-primary;
+
+  &-brand {
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  &-nav {
+    .nav-item {
+      .nav-link{
+        &:hover {
+          text-decoration-line: underline; 
+        }
+
+        &__logo {
+          font-size: 1.2em;
+          &:hover {
+            text-decoration-line: none;   
+          }
+
+        }
+      }
+    }
+  }
+
+}

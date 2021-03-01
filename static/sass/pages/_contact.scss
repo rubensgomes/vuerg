@@ -1,0 +1,7 @@
+// Contact Page
+
+.sec-contact {
+  @include hidden-block;
+  background-color: $color-primary;
+  color: $color-light;
+}

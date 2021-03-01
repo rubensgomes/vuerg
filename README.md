@@ -1,24 +1,54 @@
-# vuerg
+# Introduction
 
-## Project setup
+This project is an implementation of Rubens Gomes personal web
+site using "VueJS 3".
+
+# Install and Build
+
+## NodeJS Pre-Requisite
+
+Ensure you have NodeJS and other tools installed from [here](./SETUP.md).
+
+## Project Setup
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Static Analysis
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
 ```
 npm run lint
 ```
 
-### Customize configuration
+## Run Static Files
+
+### Saas Watch and Compile SCSS Files Changes
+
+```bash
+cd <proj_folder>
+npx gulp watch
+```
+
+### Browsersync Watch and Reload Browser
+
+```bash
+cd <proj_folder>
+npx gulp browser
+```
+
+## Compile and Run Server
+
+```
+npm run serve
+```
+
+## Production Build
+
+```
+npm run build
+```
+
+## Customize Configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).

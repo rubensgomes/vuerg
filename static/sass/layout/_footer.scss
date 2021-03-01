@@ -1,0 +1,19 @@
+/* Footer */
+
+footer.sec-footer {
+  background-color: $color-primary;
+  color: $color-light;
+  font-size: 80%;
+
+  a {
+    color: #95afc0;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: lighten($color-light, 40%);
+      text-decoration: underline;
+    }
+  }
+  
+}

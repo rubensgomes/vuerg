@@ -1,0 +1,10 @@
+@mixin hidden-block {
+  // add a hidden pseudo element before each section to account for
+  // the height of the fixed-top navbar during scrollspy.
+  &::before {
+    content: '';
+    display: block;
+    // approximate height of fixed-top navbar is 3.5rem
+    height: 3.5rem;
+  }
+}
