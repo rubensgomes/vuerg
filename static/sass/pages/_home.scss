@@ -3,3 +3,10 @@
 .sec-about {
   @include hidden-block;
 }
+
+.sec-contact {
+  @include hidden-block;
+  background-color: $color-primary;
+  color: $color-light;
+}
+

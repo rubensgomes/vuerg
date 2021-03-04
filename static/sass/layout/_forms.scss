@@ -9,7 +9,8 @@ textarea.error {
   border: 2px solid #ff7979;
 }
 
-  // Medium devices (tablets, 768px and up)
+// Medium devices (tablets, 768px and up)
+/*
   @include media('>=tablet'){
     form {
       margin-left: auto!important;
@@ -17,3 +18,4 @@ textarea.error {
       width: 70%!important; 
     }
   }
+  */
