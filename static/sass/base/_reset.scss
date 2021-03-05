@@ -4,14 +4,13 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   background-color: $color-bg;
   color: $color-light;
-  // position relative + overflow-y to support scrollspy
-  overflow-y: auto;
   //  padding-top to account for height of the fixed top navigation bar
   padding-top: 3.5rem;
+  // position relative + overflow-y to support scrollspy
+  overflow-y: auto;
   position: relative;
 }
 

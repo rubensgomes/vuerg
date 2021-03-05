@@ -32,14 +32,15 @@
   <body id="home"
         data-bs-spy="scroll"
         data-bs-target="#navbar-menu"
-        data-bs-offset="40">
+        data-bs-offset="20"
+        tabindex="0">
 
     <!-- navbar-menu -->
     <nav id="navbar-menu"
          class="navbar navbar-expand-md fixed-top navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand text-uppercase"
-           href="#">Rubens Gomes</a>
+           href="#home">Rubens Gomes</a>
         <button class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
@@ -49,8 +50,8 @@
                 aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse"
-             id="navbar-menu-items">
+        <div id="navbar-menu-items"
+             class="collapse navbar-collapse">
           <ul class="navbar-nav mx-md-auto">
             <li class="nav-item">
               <a class="nav-link"
@@ -58,7 +59,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link"
-                 data-bs-toggle="collapse"
                  href="#about">About</a>
             </li>
           </ul>
