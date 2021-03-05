@@ -37,21 +37,20 @@
     <!-- navbar-menu -->
     <nav id="navbar-menu"
          class="navbar navbar-expand-md fixed-top navbar-dark">
-      <div class="container">
+      <div class="container-fluid">
         <a class="navbar-brand text-uppercase"
            href="#">Rubens Gomes</a>
         <button class="navbar-toggler"
                 type="button"
-                data-toggle="collapse"
-                data-target="#collapsibleNavId"
-                aria-controls="collapsibleNavId"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-menu-items"
+                aria-controls="navbar-menu-items"
                 aria-expanded="false"
                 aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse"
-             id="collapsibleNavId">
-
+             id="navbar-menu-items">
           <ul class="navbar-nav mx-md-auto">
             <li class="nav-item">
               <a class="nav-link"
@@ -59,10 +58,10 @@
             </li>
             <li class="nav-item">
               <a class="nav-link"
+                 data-bs-toggle="collapse"
                  href="#about">About</a>
             </li>
           </ul>
-
           <ul class="navbar-nav ms-md-auto">
             <li class="nav-item">
               <a class="nav-link nav-link__logo"
@@ -206,8 +205,8 @@
     <!------------------------------------------------------------------------->
     <!-- ********** Extra or Additonal JavaScript Plugins ****************** -->
 
-    <!-- base JS -->
-    <script src="/js/browser-update.js"></script>
+    <script src="/js/browser.js"></script>
+    <script src="/js/navbar.js"></script>
 
   </body>
 

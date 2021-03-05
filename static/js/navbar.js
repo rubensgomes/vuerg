@@ -1,17 +1,13 @@
-//TODO convert to regular Javascript (bootstrap 5)
+(function() {
+  'use strict'
 
+  const navLinks = document.querySelectorAll('.nav-item');
+  const menuToggle = document.getElementById('navbar-menu-items');
+  //  use BootStrap 5 bootstrap.Collapse function
+  const bsCollapse = new bootstrap.Collapse(menuToggle);
 
- // jQuery - ensure JQuery is loaded
- if (window.jQuery === 'undefined') {
-  console.log('jQuery library is *not* loaded.');
-  throw new Error('The jQuery JavaScript library was not loaded!');
-}
+  navLinks.forEach((link) => {
+    link.addEventListener('click', () => { bsCollapse.toggle() })
+  });
 
-
-// bootstrap navbar - hide collapse in small screen (mobiles) clicks
-$('a.navbar-brand').on('click', function () {
-  $('.navbar-collapse').collapse('hide');
-});
-$('.navbar-nav>li>a').on('click', function () {
-  $('.navbar-collapse').collapse('hide');
-});
+})()
