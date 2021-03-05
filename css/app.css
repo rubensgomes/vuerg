@@ -1,0 +1,114 @@
+/* Variables */
+/* HTML Resets */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap");
+html {
+  scroll-behavior: smooth; }
+
+body {
+  background-color: #181A1B;
+  color: #dff9fb;
+  padding-top: 3.5rem;
+  overflow-y: auto;
+  position: relative; }
+
+/* Typograph */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+/*
+.title {
+  padding: 2rem 0 1.5rem;
+  text-align: center;
+}
+*/
+.jumbotron {
+  background-color: #130f40;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem; }
+  .jumbotron .container {
+    align-items: center;
+    flex-direction: column; }
+  .jumbotron__photo {
+    width: 25%; }
+  .jumbotron__text {
+    width: 70%; }
+  .jumbotron-fluid {
+    width: 100%; }
+  @media (min-width: 768px) {
+    .jumbotron {
+      align-items: center;
+      display: flex;
+      min-height: 80vh;
+      /*
+        &__photo {
+            width: 20%;
+        }
+
+        &__text {
+            width: 55%;
+        }
+        */ }
+      .jumbotron .container {
+        align-items: stretch;
+        flex-direction: row; } }
+
+/* Footer */
+footer.sec-footer {
+  background-color: #130f40;
+  color: #dff9fb;
+  font-size: 80%; }
+  footer.sec-footer a {
+    color: #95afc0; }
+    footer.sec-footer a:hover, footer.sec-footer a:focus, footer.sec-footer a:active {
+      color: white;
+      text-decoration: underline; }
+
+.error {
+  color: #ff7979; }
+
+input.error,
+textarea.error {
+  border: 2px solid #ff7979; }
+
+/*
+  @include media('>=tablet'){
+    form {
+      margin-left: auto!important;
+      margin-right: auto!important;
+      width: 70%!important; 
+    }
+  }
+  */
+/* Header Hero */
+header.hero {
+  background-color: #130f40;
+  color: #dff9fb; }
+
+/* Navigation Bar */
+.navbar {
+  background-color: #130f40; }
+  .navbar-brand {
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 400; }
+  .navbar-nav .nav-item .nav-link:hover {
+    text-decoration-line: underline; }
+  .navbar-nav .nav-item .nav-link__logo {
+    font-size: 1.2em; }
+    .navbar-nav .nav-item .nav-link__logo:hover {
+      text-decoration-line: none; }
+
+.sec-about::before {
+  content: '';
+  display: block;
+  height: 3.5rem; }
+
+.sec-contact {
+  background-color: #130f40;
+  color: #dff9fb; }
+  .sec-contact::before {
+    content: '';
+    display: block;
+    height: 3.5rem; }
