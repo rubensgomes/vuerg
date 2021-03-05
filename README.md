@@ -43,7 +43,7 @@ npm install
 
 # Build and Running Software
 
-## Static Analysis
+## VueJS - Static Analysis
 
 ```
 cd vuerg

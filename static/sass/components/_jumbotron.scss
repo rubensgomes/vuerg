@@ -12,11 +12,11 @@
     }
 
     &__photo {
-        width: 40%;
+        width: 30%;
     }
 
     &__text {
-        width: 80%;
+        width: 70%;
     }
 
     &-fluid {
@@ -36,6 +36,7 @@
 
         // Since we have set flex row direction on larger screens we can
         // use less space for photo and text.
+        /*
         &__photo {
             width: 20%;
         }
@@ -43,6 +44,7 @@
         &__text {
             width: 55%;
         }
+        */
     }
 
 }

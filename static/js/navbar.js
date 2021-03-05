@@ -1,14 +1,4 @@
-/**
- * @file Manages interactions with the navigation menu.
- * 
- * This script relies on:
- * <ul>
- * <li>{@link https://jquery.com/ jQuery}</li>
- * <li>{@link https://jqueryvalidation.org/ jQuery Validation Plugin} </li>
- * </ul>
- * 
- * @author Rubens Gomes <rubens.s.gomes@gmail.com>
- */
+//TODO convert to regular Javascript (bootstrap 5)
 
 
  // jQuery - ensure JQuery is loaded
